@@ -6,11 +6,17 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { CuinSolutionsComponent } from './cuin-solutions/cuin-solutions.component';
+import { MacrosManagerComponent } from './macros-manager/macros-manager.component';
+import { BoozyDiceComponent } from './boozy-dice/boozy-dice.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    CuinSolutionsComponent,
+    MacrosManagerComponent,
+    BoozyDiceComponent
   ],
   imports: [
     BrowserModule,
