@@ -1,0 +1,14 @@
+.work-experience-container {
+    grid-column: 3 / 3;
+    grid-row: 1 / span 2;
+    justify-self: center;
+}
+
+.work-experience-list li {
+    padding: 10px;
+}
+
+.work-experience-title {
+    font-size: xx-large;
+    font-weight: bold;
+}
