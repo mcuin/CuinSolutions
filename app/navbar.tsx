@@ -10,14 +10,14 @@ const Navbar = () => {
                     <Link href="/">Home</Link>
                 </li>
                 <li>
-                    <Link href="/liftingDice">Lifting Dice</Link>
+                    <Link href="/liftingdice">Lifting Dice</Link>
                 </li>
-                <li>
+                {/*<li>
                     <Link href="/macrosmanager">MacrosManager</Link>
                 </li>
                 <li>
                     <Link href="/about">About</Link>
-                </li>
+                </li>*/}
             </ul>
         </nav>
     );

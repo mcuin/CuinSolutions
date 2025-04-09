@@ -24,9 +24,9 @@ const ProjectCard = () => {
                 <CardContent>
                 {project.description}
                 </CardContent>
-                <CardActions>
-                    <Link href="/liftingDice">Learn More</Link>
-                </CardActions>
+                {project.link.length > 0 && <CardActions>
+                    <Link href={project.link}>Learn More</Link>
+                </CardActions>}
             </Card>
             
         </li>

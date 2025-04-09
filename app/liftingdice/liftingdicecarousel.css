@@ -1,0 +1,10 @@
+.lifting-dice-carousel {
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 3;
+}
+
+.lifting-dice-carousel-image {
+    object-fit: contain;
+    width: 60%;
+    height: auto;
+}

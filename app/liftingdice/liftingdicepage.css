@@ -1,0 +1,77 @@
+.lifting-dice-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+}
+
+.lifting-dice-title-container {
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+    justify-self: start;
+    padding-left: 30px;
+}
+
+.lifting-dice-icon {
+    height: 200px;
+    width: 200px;
+}
+
+.lifting-dice-title {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.lifting-dice-technologies-container {
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+}
+
+.lifting-dice-description {
+    grid-column: 1 / span 2;
+    grid-row: 2 / 2;
+    font-size: medium;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+.lifting-dice-app-store {
+    grid-column: 1 / 1;
+    grid-row: 3 / 3;
+}
+
+.lifting-dice-play-store {
+    grid-row: 3 / 3;
+    grid-column: 2 / 2;
+}
+
+.lifting-dice-technologies-title {
+    font-size: large;
+    font-weight: bold;
+    justify-self: start;
+    padding-bottom: 15px;
+}
+
+.lifting-dice-technologies-list {
+    justify-self: start;
+}
+
+.lifting-dice-qr-code {
+    width: 50%;
+    height: auto;
+    justify-self: center;
+}
+
+.lifting-dice-app-store-badge {
+    width: 55%;
+    height: auto;
+    justify-self: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.lifting-dice-play-store-badge {
+    width: 70%;
+    height: auto;
+    justify-self: center;
+}
